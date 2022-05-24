@@ -1,0 +1,5 @@
+21:41:19 **** Incremental Build of configuration Debug for project MemoriaDinamica ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\MemoriaDinamica.o" "..\\src\\MemoriaDinamica.c" 
+gcc -o MemoriaDinamica.exe "src\\MemoriaDinamica.o" 
+Info: Nothing to build for MemoriaDinamica

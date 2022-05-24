@@ -1,0 +1,30 @@
+/*
+ ============================================================================
+ Name        : Punteros.c
+ Author      : 
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+int saludar(char* mensaje);
+int saludar(char* mensaje)
+{
+	printf("%s",mensaje);
+	return 0;
+}
+
+int main(void) {
+
+	 (*pFuncSaludar)(char*);
+	pFuncSaludar = saludar;
+
+	if(!pFuncSaludar("Holis\n"))
+	{
+		printf("OK");
+	}
+	return EXIT_SUCCESS;
+}
